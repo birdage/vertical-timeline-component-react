@@ -32,9 +32,9 @@ const ContentYear = (props) => {
   } = props;
 
   return (
-    <YearComponent className="year-component">
-      <YearComponentItem className="item-year-component">
-        { year }
+    <YearComponent className={"year-component"}>
+      <YearComponentItem className={"item-year-component"}>
+        {year}
       </YearComponentItem>
     </YearComponent>
   );

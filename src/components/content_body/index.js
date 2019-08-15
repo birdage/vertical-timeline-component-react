@@ -25,7 +25,7 @@ const BodyComponent = styled.div`
   }
 `;
 
-const BodyComponentTitle = styled.p`
+const BodyComponentTitle = styled.div`
   font-weight: bold;
   margin-bottom: 5px;
   margin-top: 0;
@@ -41,9 +41,9 @@ const ContentBody = (props) => {
   return (
     <BodyComponent className="body-component">
       <BodyComponentTitle className="title-body-component">
-        { title }
+        {title}
       </BodyComponentTitle>
-      { children }
+      {children}
     </BodyComponent>
   );
 };

@@ -23,7 +23,7 @@ const Content = (props) => {
 
   return (
     <ContainerComponent className="content-component">
-      { children }
+      {children}
     </ContainerComponent>
   );
 };
